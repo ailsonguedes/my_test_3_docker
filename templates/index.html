@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Flask App with MongoDB</title>
+</head>
+<body>
+	<h1>Flask App with MongoDB</h1>
+	{% for item in items %}
+		<h3>{{ item.title }}</h3>
+		<p>{{ item.content }}</p>
+	{% endfor %}
+</body>
+</html>
